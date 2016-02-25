@@ -26,6 +26,7 @@ static NSString *kProductTemplateThree = @"product-template-3";
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate, AMProductTemplateTwoCellDelegate, AMProductTemplateTwoCellDataSource, AMProductTemplateThreeCellDataSource, AMProductTemplateThreeCellDelegate>
 @property (nonatomic, strong) NSMutableArray *deals;
 @property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic) BOOL isAllDataFetched;
 @end
 
 @implementation ViewController
@@ -33,15 +34,33 @@ static NSString *kProductTemplateThree = @"product-template-3";
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view addSubview:self.tableView];
-    [self fetchDeals];
+    [self fetchDealsForFile:@"f_one"];
 }
 
-- (void)fetchDeals {
+- (void)fetchDealsForFile:(NSString *)fileName {
     typeof(self) __weak weakself = self;
-    [[AMDataManager sharedManager] fetchDealFromLocalFile:@"f_one" success:^(NSArray *deals) {
+    [[AMDataManager sharedManager] fetchDealFromLocalFile:fileName success:^(NSArray *deals) {
         [weakself.deals addObjectsFromArray:deals];
         NSLog(@"deals %@", deals);
-        [weakself.tableView reloadData];
+        if (weakself.deals.count) {
+            if (deals.count > 0) {
+                weakself.isAllDataFetched = YES;
+                NSInteger previousIndex = weakself.deals.count;
+                NSMutableArray *indexPaths = [[NSMutableArray alloc] init];
+                [weakself.deals addObjectsFromArray:deals];
+                for (NSInteger i = previousIndex; i < weakself.deals.count; i++) {
+                    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:i];
+                    [indexPaths addObject:indexPath];
+                }
+                
+                [weakself.tableView beginUpdates];
+                [weakself.tableView insertRowsAtIndexPaths:[indexPaths copy] withRowAnimation:UITableViewRowAnimationNone];
+                [weakself.tableView endUpdates];
+            }
+        } else {
+            weakself.isAllDataFetched = NO;
+            [weakself.tableView reloadData];
+        }
     } failure:^(NSError *error) {
         
     }];
@@ -143,6 +162,14 @@ static NSString *kProductTemplateThree = @"product-template-3";
     [view addSubview:label];
     
     return view;
+}
+
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (self.deals.count > 0) {
+        if (indexPath.row == self.deals.count - 2 && !self.isAllDataFetched) {
+            [self fetchDealsForFile:@"f_two"];
+        }
+    }
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
