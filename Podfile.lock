@@ -20,7 +20,6 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - DCIntrospect-ARC (0.0.8)
   - FrameAccessor (2.0)
   - JTSImageViewController (1.5.1)
   - Mantle (2.0.6):
@@ -30,7 +29,6 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 2.5)
-  - DCIntrospect-ARC (~> 0.0)
   - FrameAccessor
   - JTSImageViewController (~> 1.5)
   - Mantle
@@ -38,7 +36,6 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
-  DCIntrospect-ARC: 68a97cc2e99420b21bfcd66865b5376701f8e7f5
   FrameAccessor: 443a13e58e23a10ff22180da0897b28c3f6abf66
   JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
   Mantle: 299966b00759634931699f69cb6a30b9239b944d

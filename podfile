@@ -6,6 +6,5 @@ use_frameworks!
 pod 'AFNetworking', '~> 2.5'
 pod 'FrameAccessor'
 pod 'Mantle'
-pod 'DCIntrospect-ARC', '~> 0.0'
 pod 'SVProgressHUD'
 pod 'JTSImageViewController', '~> 1.5'

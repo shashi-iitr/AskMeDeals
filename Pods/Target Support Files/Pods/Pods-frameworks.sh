@@ -85,7 +85,6 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods/AFNetworking.framework"
-  install_framework "Pods/DCIntrospect_ARC.framework"
   install_framework "Pods/FrameAccessor.framework"
   install_framework "Pods/JTSImageViewController.framework"
   install_framework "Pods/Mantle.framework"
@@ -93,7 +92,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods/AFNetworking.framework"
-  install_framework "Pods/DCIntrospect_ARC.framework"
   install_framework "Pods/FrameAccessor.framework"
   install_framework "Pods/JTSImageViewController.framework"
   install_framework "Pods/Mantle.framework"

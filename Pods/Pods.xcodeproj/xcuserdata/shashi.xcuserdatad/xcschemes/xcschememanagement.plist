@@ -9,11 +9,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>DCIntrospect-ARC.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>FrameAccessor.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -52,22 +47,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7878CAD35BAD16BB71F3C4EB06EE5F46</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>814D7F0C846B4DCB10FE73B71013FF5D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9E40189F47E139B56E9883B778659F40</key>
+		<key>9068B95061F4F27B4253F74208025E66</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CD2F0BACBFAA73DD7102DAB7A3441B06</key>
+		<key>96B9F87318527E8077F98BF43D6FBCEE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
