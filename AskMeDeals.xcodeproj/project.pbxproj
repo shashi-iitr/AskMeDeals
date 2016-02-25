@@ -15,6 +15,8 @@
 		9B0722FB1C7F1CE90067E0D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0722F91C7F1CE90067E0D5 /* LaunchScreen.storyboard */; };
 		9B0723061C7F1CEA0067E0D5 /* AskMeDealsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0723051C7F1CEA0067E0D5 /* AskMeDealsTests.m */; };
 		9B0723111C7F1CEA0067E0D5 /* AskMeDealsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0723101C7F1CEA0067E0D5 /* AskMeDealsUITests.m */; };
+		9B0723201C7F1DD30067E0D5 /* f_one.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B07231E1C7F1DD30067E0D5 /* f_one.json */; };
+		9B0723211C7F1DD30067E0D5 /* f_two.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B07231F1C7F1DD30067E0D5 /* f_two.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		9B07230C1C7F1CEA0067E0D5 /* AskMeDealsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AskMeDealsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0723101C7F1CEA0067E0D5 /* AskMeDealsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AskMeDealsUITests.m; sourceTree = "<group>"; };
 		9B0723121C7F1CEA0067E0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B07231E1C7F1DD30067E0D5 /* f_one.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = f_one.json; sourceTree = "<group>"; };
+		9B07231F1C7F1DD30067E0D5 /* f_two.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = f_two.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		9B0722EA1C7F1CE90067E0D5 /* AskMeDeals */ = {
 			isa = PBXGroup;
 			children = (
+				9B07231E1C7F1DD30067E0D5 /* f_one.json */,
+				9B07231F1C7F1DD30067E0D5 /* f_two.json */,
 				9B0722EE1C7F1CE90067E0D5 /* AppDelegate.h */,
 				9B0722EF1C7F1CE90067E0D5 /* AppDelegate.m */,
 				9B0722F11C7F1CE90067E0D5 /* ViewController.h */,
@@ -243,7 +249,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B0723211C7F1DD30067E0D5 /* f_two.json in Resources */,
 				9B0722FB1C7F1CE90067E0D5 /* LaunchScreen.storyboard in Resources */,
+				9B0723201C7F1DD30067E0D5 /* f_one.json in Resources */,
 				9B0722F81C7F1CE90067E0D5 /* Assets.xcassets in Resources */,
 				9B0722F61C7F1CE90067E0D5 /* Main.storyboard in Resources */,
 			);
