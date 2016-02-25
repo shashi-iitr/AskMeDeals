@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, :deployment_target => "8.0"
+use_frameworks!
+
+pod 'AFNetworking', '~> 2.5'
+pod 'FrameAccessor'
+pod 'Mantle'
+pod 'DCIntrospect-ARC', '~> 0.0'
+pod 'SVProgressHUD'
+pod 'JTSImageViewController', '~> 1.5'
