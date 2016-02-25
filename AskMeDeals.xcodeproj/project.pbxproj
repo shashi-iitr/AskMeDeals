@@ -17,6 +17,17 @@
 		9B0723111C7F1CEA0067E0D5 /* AskMeDealsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0723101C7F1CEA0067E0D5 /* AskMeDealsUITests.m */; };
 		9B0723201C7F1DD30067E0D5 /* f_one.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B07231E1C7F1DD30067E0D5 /* f_one.json */; };
 		9B0723211C7F1DD30067E0D5 /* f_two.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B07231F1C7F1DD30067E0D5 /* f_two.json */; };
+		9B0723251C7F1F850067E0D5 /* AMDeal.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0723241C7F1F850067E0D5 /* AMDeal.m */; };
+		9B0723281C7F1F930067E0D5 /* AMDealItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0723271C7F1F930067E0D5 /* AMDealItem.m */; };
+		9B07232C1C7F21C50067E0D5 /* AMDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B07232B1C7F21C50067E0D5 /* AMDataManager.m */; };
+		9B0723311C7F287A0067E0D5 /* AMProductTemplateOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B07232F1C7F287A0067E0D5 /* AMProductTemplateOneCell.m */; };
+		9B0723321C7F287A0067E0D5 /* AMProductTemplateOneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B0723301C7F287A0067E0D5 /* AMProductTemplateOneCell.xib */; };
+		9B0723361C7F2FD80067E0D5 /* AMProductTemplateTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0723341C7F2FD80067E0D5 /* AMProductTemplateTwoCell.m */; };
+		9B0723371C7F2FD80067E0D5 /* AMProductTemplateTwoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B0723351C7F2FD80067E0D5 /* AMProductTemplateTwoCell.xib */; };
+		9B07233A1C7F34680067E0D5 /* AMProductTemplateTwoItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0723391C7F34680067E0D5 /* AMProductTemplateTwoItemCell.m */; };
+		9B07233D1C7F3D630067E0D5 /* AMProductTemplateThreeItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B07233C1C7F3D630067E0D5 /* AMProductTemplateThreeItemCell.m */; };
+		9B0723411C7F3D830067E0D5 /* AMProductTemplateThreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B07233F1C7F3D830067E0D5 /* AMProductTemplateThreeCell.m */; };
+		9B0723421C7F3D830067E0D5 /* AMProductTemplateThreeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B0723401C7F3D830067E0D5 /* AMProductTemplateThreeCell.xib */; };
 		F5852A0D2F58A6FCDCFB11F2 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD4DD6E50386BF2615C2868 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +69,25 @@
 		9B0723121C7F1CEA0067E0D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B07231E1C7F1DD30067E0D5 /* f_one.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = f_one.json; sourceTree = "<group>"; };
 		9B07231F1C7F1DD30067E0D5 /* f_two.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = f_two.json; sourceTree = "<group>"; };
+		9B0723231C7F1F850067E0D5 /* AMDeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDeal.h; sourceTree = "<group>"; };
+		9B0723241C7F1F850067E0D5 /* AMDeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDeal.m; sourceTree = "<group>"; };
+		9B0723261C7F1F930067E0D5 /* AMDealItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDealItem.h; sourceTree = "<group>"; };
+		9B0723271C7F1F930067E0D5 /* AMDealItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDealItem.m; sourceTree = "<group>"; };
+		9B07232A1C7F21C50067E0D5 /* AMDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDataManager.h; sourceTree = "<group>"; };
+		9B07232B1C7F21C50067E0D5 /* AMDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDataManager.m; sourceTree = "<group>"; };
+		9B07232E1C7F287A0067E0D5 /* AMProductTemplateOneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMProductTemplateOneCell.h; sourceTree = "<group>"; };
+		9B07232F1C7F287A0067E0D5 /* AMProductTemplateOneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMProductTemplateOneCell.m; sourceTree = "<group>"; };
+		9B0723301C7F287A0067E0D5 /* AMProductTemplateOneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AMProductTemplateOneCell.xib; sourceTree = "<group>"; };
+		9B0723331C7F2FD80067E0D5 /* AMProductTemplateTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMProductTemplateTwoCell.h; sourceTree = "<group>"; };
+		9B0723341C7F2FD80067E0D5 /* AMProductTemplateTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMProductTemplateTwoCell.m; sourceTree = "<group>"; };
+		9B0723351C7F2FD80067E0D5 /* AMProductTemplateTwoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AMProductTemplateTwoCell.xib; sourceTree = "<group>"; };
+		9B0723381C7F34680067E0D5 /* AMProductTemplateTwoItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMProductTemplateTwoItemCell.h; sourceTree = "<group>"; };
+		9B0723391C7F34680067E0D5 /* AMProductTemplateTwoItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMProductTemplateTwoItemCell.m; sourceTree = "<group>"; };
+		9B07233B1C7F3D630067E0D5 /* AMProductTemplateThreeItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMProductTemplateThreeItemCell.h; sourceTree = "<group>"; };
+		9B07233C1C7F3D630067E0D5 /* AMProductTemplateThreeItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMProductTemplateThreeItemCell.m; sourceTree = "<group>"; };
+		9B07233E1C7F3D830067E0D5 /* AMProductTemplateThreeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMProductTemplateThreeCell.h; sourceTree = "<group>"; };
+		9B07233F1C7F3D830067E0D5 /* AMProductTemplateThreeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMProductTemplateThreeCell.m; sourceTree = "<group>"; };
+		9B0723401C7F3D830067E0D5 /* AMProductTemplateThreeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AMProductTemplateThreeCell.xib; sourceTree = "<group>"; };
 		A17E6AE4F4B0805FD47E33D3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +159,9 @@
 		9B0722EA1C7F1CE90067E0D5 /* AskMeDeals */ = {
 			isa = PBXGroup;
 			children = (
+				9B07232D1C7F284A0067E0D5 /* View */,
+				9B0723291C7F21AF0067E0D5 /* Manager */,
+				9B0723221C7F1F600067E0D5 /* Models */,
 				9B07231E1C7F1DD30067E0D5 /* f_one.json */,
 				9B07231F1C7F1DD30067E0D5 /* f_two.json */,
 				9B0722EE1C7F1CE90067E0D5 /* AppDelegate.h */,
@@ -168,6 +201,46 @@
 				9B0723121C7F1CEA0067E0D5 /* Info.plist */,
 			);
 			path = AskMeDealsUITests;
+			sourceTree = "<group>";
+		};
+		9B0723221C7F1F600067E0D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B0723231C7F1F850067E0D5 /* AMDeal.h */,
+				9B0723241C7F1F850067E0D5 /* AMDeal.m */,
+				9B0723261C7F1F930067E0D5 /* AMDealItem.h */,
+				9B0723271C7F1F930067E0D5 /* AMDealItem.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9B0723291C7F21AF0067E0D5 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9B07232A1C7F21C50067E0D5 /* AMDataManager.h */,
+				9B07232B1C7F21C50067E0D5 /* AMDataManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		9B07232D1C7F284A0067E0D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B07232E1C7F287A0067E0D5 /* AMProductTemplateOneCell.h */,
+				9B07232F1C7F287A0067E0D5 /* AMProductTemplateOneCell.m */,
+				9B0723301C7F287A0067E0D5 /* AMProductTemplateOneCell.xib */,
+				9B0723331C7F2FD80067E0D5 /* AMProductTemplateTwoCell.h */,
+				9B0723341C7F2FD80067E0D5 /* AMProductTemplateTwoCell.m */,
+				9B0723351C7F2FD80067E0D5 /* AMProductTemplateTwoCell.xib */,
+				9B0723381C7F34680067E0D5 /* AMProductTemplateTwoItemCell.h */,
+				9B0723391C7F34680067E0D5 /* AMProductTemplateTwoItemCell.m */,
+				9B07233B1C7F3D630067E0D5 /* AMProductTemplateThreeItemCell.h */,
+				9B07233C1C7F3D630067E0D5 /* AMProductTemplateThreeItemCell.m */,
+				9B07233E1C7F3D830067E0D5 /* AMProductTemplateThreeCell.h */,
+				9B07233F1C7F3D830067E0D5 /* AMProductTemplateThreeCell.m */,
+				9B0723401C7F3D830067E0D5 /* AMProductTemplateThreeCell.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,8 +349,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B0723321C7F287A0067E0D5 /* AMProductTemplateOneCell.xib in Resources */,
 				9B0723211C7F1DD30067E0D5 /* f_two.json in Resources */,
+				9B0723421C7F3D830067E0D5 /* AMProductTemplateThreeCell.xib in Resources */,
 				9B0722FB1C7F1CE90067E0D5 /* LaunchScreen.storyboard in Resources */,
+				9B0723371C7F2FD80067E0D5 /* AMProductTemplateTwoCell.xib in Resources */,
 				9B0723201C7F1DD30067E0D5 /* f_one.json in Resources */,
 				9B0722F81C7F1CE90067E0D5 /* Assets.xcassets in Resources */,
 				9B0722F61C7F1CE90067E0D5 /* Main.storyboard in Resources */,
@@ -353,9 +429,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B07233D1C7F3D630067E0D5 /* AMProductTemplateThreeItemCell.m in Sources */,
 				9B0722F31C7F1CE90067E0D5 /* ViewController.m in Sources */,
+				9B0723281C7F1F930067E0D5 /* AMDealItem.m in Sources */,
+				9B0723361C7F2FD80067E0D5 /* AMProductTemplateTwoCell.m in Sources */,
+				9B0723311C7F287A0067E0D5 /* AMProductTemplateOneCell.m in Sources */,
+				9B07233A1C7F34680067E0D5 /* AMProductTemplateTwoItemCell.m in Sources */,
 				9B0722F01C7F1CE90067E0D5 /* AppDelegate.m in Sources */,
 				9B0722ED1C7F1CE90067E0D5 /* main.m in Sources */,
+				9B0723251C7F1F850067E0D5 /* AMDeal.m in Sources */,
+				9B07232C1C7F21C50067E0D5 /* AMDataManager.m in Sources */,
+				9B0723411C7F3D830067E0D5 /* AMProductTemplateThreeCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
