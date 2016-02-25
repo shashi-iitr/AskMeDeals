@@ -8,6 +8,7 @@
 
 #import "AMProductTemplateOneCell.h"
 #import "UIImageView+AFNetworking.h"
+#import "FrameAccessor.h"
 
 @interface AMProductTemplateOneCell ()
 @property (weak, nonatomic) IBOutlet UIImageView *itemImageView;
@@ -20,6 +21,12 @@
 
 - (void)awakeFromNib {
     _itemImageView.contentMode = UIViewContentModeScaleToFill;
+    
+    CAGradientLayer *gradient = [CAGradientLayer layer];
+    gradient.frame = CGRectMake(0, 0, [[UIScreen mainScreen] bounds].size.width - 2 * 8, _bottomGradientView.height);
+    gradient.colors = [NSArray arrayWithObjects:(id)[[UIColor whiteColor] CGColor], (id)[[UIColor colorWithWhite:0 alpha:0.8] CGColor], nil];
+    [_bottomGradientView.layer insertSublayer:gradient atIndex:0];
+
 }
 
 - (void)configureWithItem:(AMDealItem *)item {

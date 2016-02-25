@@ -17,6 +17,13 @@
 @implementation AMProductTemplateTwoCell
 
 - (void)awakeFromNib {
+    UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
+    flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+    flowLayout.itemSize = CGSizeMake(95, 124);
+    flowLayout.minimumInteritemSpacing = 10;
+    flowLayout.minimumLineSpacing = 10;
+
+    _collectionView.collectionViewLayout = flowLayout;
     _collectionView.dataSource = self;
     _collectionView.delegate = self;
     _collectionView.backgroundColor = [UIColor colorWithRed:229.f / 255.f green:229.f / 255.f blue:247.f / 255.f alpha:1];

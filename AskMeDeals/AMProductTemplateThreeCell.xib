@@ -20,13 +20,20 @@
                         <constraints>
                             <constraint firstAttribute="height" constant="133.5" id="mQy-qB-7wk"/>
                         </constraints>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="478-Rc-0E5">
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="0.0" id="478-Rc-0E5">
                             <size key="itemSize" width="304" height="134"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                     </collectionView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MF9-og-w3W">
+                        <rect key="frame" x="8" y="118.5" width="304" height="23.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23.5" id="FPM-Sx-20L"/>
+                        </constraints>
+                    </view>
                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="3e8-vO-hZI">
                         <rect key="frame" x="16" y="112" width="40" height="37"/>
                         <constraints>
@@ -40,12 +47,16 @@
                     <constraint firstAttribute="topMargin" secondItem="oUY-Xs-YLq" secondAttribute="top" id="K8A-lr-drc"/>
                     <constraint firstItem="3e8-vO-hZI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="NOl-80-0bz"/>
                     <constraint firstAttribute="leadingMargin" secondItem="oUY-Xs-YLq" secondAttribute="leading" id="T4j-Ht-e1a"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="MF9-og-w3W" secondAttribute="trailing" id="TDS-xo-hb0"/>
                     <constraint firstAttribute="bottomMargin" secondItem="oUY-Xs-YLq" secondAttribute="bottom" id="UgE-AO-TXv"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="MF9-og-w3W" secondAttribute="leading" id="hnn-WD-Zrv"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="MF9-og-w3W" secondAttribute="bottom" constant="-0.5" id="lo1-zs-a0d"/>
                     <constraint firstAttribute="trailingMargin" secondItem="oUY-Xs-YLq" secondAttribute="trailing" id="zEK-23-ew9"/>
                 </constraints>
             </tableViewCellContentView>
             <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
             <connections>
+                <outlet property="bottomGradientView" destination="MF9-og-w3W" id="Bxj-Ie-4Vs"/>
                 <outlet property="collectionView" destination="oUY-Xs-YLq" id="Lb1-MM-L1V"/>
                 <outlet property="pageControl" destination="3e8-vO-hZI" id="9p1-bs-C6a"/>
             </connections>

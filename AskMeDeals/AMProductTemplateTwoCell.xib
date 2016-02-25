@@ -39,7 +39,7 @@
             <connections>
                 <outlet property="collectionView" destination="EPN-93-lAr" id="GP2-oe-OYm"/>
             </connections>
-            <point key="canvasLocation" x="280" y="376"/>
+            <point key="canvasLocation" x="171" y="378"/>
         </tableViewCell>
     </objects>
 </document>
